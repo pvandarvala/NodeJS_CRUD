@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-crud",
+  "version": "1.0.0",
+  "description": "This is nodejs crud project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "paresh vandarvala",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
